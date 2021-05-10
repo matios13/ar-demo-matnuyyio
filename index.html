@@ -9,7 +9,7 @@
     </head>
 
     <body style="margin: 20; overflow: hidden;">
-        Ar demo
+
         <a-scene
             vr-mode-ui="enabled: false;"
             loading-screen="enabled: false;"
@@ -39,8 +39,9 @@
             >
                 <a-entity
                     id="bowser-model"
-                    scale="3 3 3"
-                    rotation="90 0 0"
+                    scale="1 1 1"
+                    position="20 0 0"
+                    rotation="270 0 0"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     class="clickable"
@@ -50,5 +51,8 @@
 
             <a-entity camera></a-entity>
         </a-scene>
+        <div>
+            <p>version : 1.2</p>
+        </div>
     </body>
 </html>
